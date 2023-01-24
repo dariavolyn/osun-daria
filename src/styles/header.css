@@ -34,7 +34,7 @@
 }
 
 .nav-mobile {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0 0 20px 0;
     display: none;
     flex-direction: column;
@@ -52,6 +52,10 @@
 
 .nav-link-mobile {
     padding: 15px 0;
+}
+
+.nav-link-mobile:first-child {
+    padding-top: 0;
 }
 
 .nav-link:hover {
@@ -73,6 +77,7 @@
 @media screen and (max-width: 1100px) {
     .header-logo {
         width: 180px;
+        margin: 0;
         background-size: contain;
     }
 }
@@ -84,6 +89,8 @@
 
     .nav-fullscreen {
         display: none;
+        width: 0;
+        height: 0;
     }
 
     .header-mobile-menu-button {
