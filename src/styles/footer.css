@@ -1,0 +1,42 @@
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: #003434;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-logo {
+    margin: 10px;
+    padding: 0 0 0 5%;
+    height: 80px;
+}
+
+.footer-info {
+    margin: auto 0;
+    padding: 0 5% 0 0;
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    color: white;
+}
+
+.footer-link {
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0 5px;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .footer-info {
+        font-size: 12px;
+    }
+
+    .footer-link {
+        font-size: 12px;
+    }
+}

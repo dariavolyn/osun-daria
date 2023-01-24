@@ -3,6 +3,7 @@ import intro from './img/intro.png';
 import info1 from './img/Poster.jpeg';
 import info2 from './img/earth.png';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
         </div>
 
       </div>
+
+      <Footer />
+      
     </div>
   );
 }

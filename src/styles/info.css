@@ -16,6 +16,10 @@
     align-content: space-evenly;
 }
 
+.info-wrapper:last-of-type {
+    margin-bottom: 0;
+}
+
 .info-img {
     margin: 0 20px 0 0;
     padding: 0;
@@ -41,7 +45,7 @@
     font-family: 'Avenir Next';
     margin: 0;
     padding: 0;
-    color: #003434;
+    color: #FF003C;
     text-align: center;
 }
 

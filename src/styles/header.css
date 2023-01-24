@@ -3,11 +3,12 @@
     min-height: 100px;
     font-family: 'Avenir Next';
     padding: 0 5%;
-    background-color: #003434;
+    background-color: white;
     display: flex;
     align-content: center;
     justify-content: space-between;
     z-index: 2;
+    border-bottom: 2px solid #003434;
 }
 
 .header-logo {
@@ -15,7 +16,7 @@
     padding: 0;
     height: 80px;
     width: 450px;
-    background-image: url('../img/logo.png');
+    background-image: url('../img/osun-logo-mobile.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -39,30 +40,29 @@
     flex-direction: column;
     width: 100%;
     z-index: 2;
-    background-color: #003434;
+    background-color: white;
 }
 
 .nav-link {
     font-size: medium;
     margin: 0;
     font-family: 'Avenir Next';
-    color: white;
+    color: #003434;
 }
 
 .nav-link-mobile {
-    border-bottom: 1px solid white;
     padding: 15px 0;
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 52, 52, 0.7);
 }
 
 .header-mobile-menu-button {
     margin: auto 0;
     padding: 0;
-    background-image: url('../img/icons8-menu-rounded-90.png');
+    background-image: url('../img/hamburger-menu.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 40px;
@@ -72,7 +72,6 @@
 
 @media screen and (max-width: 1100px) {
     .header-logo {
-        background-image: url('../img/dark-logo.png');
         width: 80px;
         background-size: cover;
     }
