@@ -23,6 +23,15 @@
     padding: 0;
     text-align: center;
     color: #003434;
-    font-weight: 200;
+    font-weight: normal;
     font-family: 'Avenir Next';
+}
+
+@media screen and (max-width: 780px) {
+    .quote-title {
+        font-size: medium;
+    }
+    .quote-text {
+        font-size: small;
+    }
 }
