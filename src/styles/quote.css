@@ -1,0 +1,27 @@
+.quote {
+    margin: 3% auto;
+    width: 90%;
+    border: 1px solid #003434;
+    border-bottom: 1px solid #003434;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.quote-title {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: #003434;
+    font-family: 'Avenir Next';
+}
+
+.quote-text {
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+    text-align: center;
+    color: #003434;
+    font-family: 'Avenir Next';
+}
