@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/osun-daria/static/css/main.bd921eb3.css",
+    "main.css": "/osun-daria/static/css/main.7e385b6b.css",
     "main.js": "/osun-daria/static/js/main.90b2d395.js",
     "static/js/787.28d3d832.chunk.js": "/osun-daria/static/js/787.28d3d832.chunk.js",
     "static/media/intro.png": "/osun-daria/static/media/intro.4e1d7875157fdd2c6caa.png",
@@ -9,12 +9,12 @@
     "static/media/AvenirNextLTPro-Regular.ttf": "/osun-daria/static/media/AvenirNextLTPro-Regular.0cac6b88f60ab1008363.ttf",
     "static/media/osun-logo-mobile.png": "/osun-daria/static/media/osun-logo-mobile.f0d5c89a1f12b2b7cb7f.png",
     "index.html": "/osun-daria/index.html",
-    "main.bd921eb3.css.map": "/osun-daria/static/css/main.bd921eb3.css.map",
+    "main.7e385b6b.css.map": "/osun-daria/static/css/main.7e385b6b.css.map",
     "main.90b2d395.js.map": "/osun-daria/static/js/main.90b2d395.js.map",
     "787.28d3d832.chunk.js.map": "/osun-daria/static/js/787.28d3d832.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd921eb3.css",
+    "static/css/main.7e385b6b.css",
     "static/js/main.90b2d395.js"
   ]
 }
